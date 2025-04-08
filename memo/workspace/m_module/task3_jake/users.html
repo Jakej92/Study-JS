@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>사용자 목록 출력하기</title>
+        <style>
+            table {
+                width: 80%;
+                margin: 0 auto;
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            tr,
+            th {
+                border: 1px solid black;
+            }
+            tr,
+            td {
+                border: 1px solid black;
+            }
+
+            tr {
+                color: black;
+            }
+
+            tr.on {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="get-users">User List</button>
+        <button id="get-website">Website List</button>
+
+        <!-- 사용자 목록 테이블 -->
+        <table class="users" style="display: none"></table>
+
+        <!-- 웹사이트 목록 테이블 -->
+        <table class="websites" style="display: none"></table>
+    </body>
+    <script src="service.js"></script>
+    <script src="layout.js"></script>
+    <script src="event.js"></script>
+</html>

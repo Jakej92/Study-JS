@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>댓글 조회</title>
+        <link rel="stylesheet" href="layout.css" />
+    </head>
+    <body>
+        <!--  게시글 번호를 입력하면 
+              게시글을 작성한 사용자 정보를 보여주고
+              게시글 번호와 일치하는 게시글 정보를 보여주고
+              게시글에 달린 댓글을 보여준다 -->
+
+        <div>게시글 번호<input type="text" /></div>
+        <button id="get-comment">댓글 목록</button>
+
+        <div id="userAndPost"></div>
+        <!--  댓글을 단 게시글 정보와 게시글을 작성한 사용자 정보를 보여줄 공간-->
+
+        <table id="comment"></table>
+        <!--  댓글 정보를 보여줄 공간 -->
+    </body>
+    <script src="service.js"></script>
+    <script src="layout.js"></script>
+    <script src="event.js"></script>
+</html>

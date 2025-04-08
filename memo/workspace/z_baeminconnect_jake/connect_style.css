@@ -1,0 +1,844 @@
+@font-face {
+    font-family: Pretendard;
+    src: url(Pretendard-Regular.woff2) format('woff2');
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    color: #282F32;
+    font-family: Pretendard;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0;
+    -webkit-font-smoothing: antialiased;
+}
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.container {
+    min-width: 1440px;
+    margin: 0 auto;
+}
+.cta {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 46px;
+    display: inline-block;
+    min-width: 320px;
+    padding: 19px 50px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    border-radius: 38px;
+    background-color: #282F32;
+    box-shadow: 0px 8px 12px 0px #00000052;
+    opacity: 0;
+    cursor: pointer;
+    transition: vsibility 4s, opacity .4s ease;
+    z-index: 999;
+}
+.cta.visible {
+    visibility: visible;
+    opacity: 1;
+}
+button, input, select, textarea {
+    font: inherit;
+}
+button {
+    appearance: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    align-items: flex-start;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border: none;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background: url(https://join.baeminconnect.com/assets/img/common/main__bg.jpg) no-repeat center / cover;
+}
+.intro__title {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.intro__logo {
+    width: 267px;
+    height: 53px;
+    background: url(https://join.baeminconnect.com/assets/img/common/logo__white.png) no-repeat center / auto 100%;
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.intro__tit {
+    margin-top: 32px;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.intro__txt {
+    margin-top: 16px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    font-weight: 400;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.intro__down {
+    display: inline-block;
+    margin-top: 56px;
+    padding: 22px 72px;
+    border-radius: 38px;
+    background-color: #00C4BD;
+    box-shadow: 0px 8px 12px 0px rgba(40, 47, 50, 0.26);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    cursor: pointer;
+}
+.section {
+    text-align: center;
+    overflow: hidden;
+}
+.section.space-01 {
+    padding: 160px 0 240px;
+}
+.section > .inner {
+    width: 1440px;
+    margin: 0 auto;
+}
+.section__title .tit {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.section__content .when-form {
+    margin: 80px auto 0;
+}
+.section__content .when-form ul {
+    display: flex;
+    justify-content: center;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+.section__content .when-form ul li {
+    position: relative;
+    text-align: left;
+}
+.section__content .when-form ul li .num {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 38px;
+    background: url(https://join.baeminconnect.com/assets/img/common/icon__num.png) no-repeat center / 100% auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section__content .when-form ul li .txt {
+    margin-top: 16px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.section__content .when-form ul li + li {
+    margin-left: 113px;
+}
+.section__content .when-form ul li + li::before {
+    content: '';
+    position: absolute;
+    left: -56px;
+    width: 1px;
+    height: 150px;
+    background-color: rgba(217, 217, 217, 0.6);
+}
+.section__content .when-form ul li .txt > span {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section.space-bg {
+    padding: 140px 0;
+    background-color: #f5f5f5;
+}
+.section {
+    text-align: center;
+    overflow: hidden;
+}
+.color-primary {
+    color: #00C4BD;
+}
+.section__content .num-form {
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 0;
+}
+.section__content .num-form__block {
+    position: relative;
+    min-width: 272px;
+}
+.section__content .num-form__txt {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.section__content .num-form__count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 56px;
+}
+.section__content .num-form__count > span {
+    font-size: 44px;
+    font-weight: 700;
+}
+.section__content .num-form__count > span.count {
+    position: relative;
+    display: flex;
+    font-size: 48px;
+    overflow: hidden;
+}
+.section__content .num-form__count > span.count.count01 {
+    width: 90px;
+}
+.section__content .num-form__count > span.count .number {
+    position: relative;
+    display: flex;
+    height: 48px;
+    overflow: hidden;
+}
+.section__content .num-form__count > span.count .number > .count-list {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* position: absolute; */
+    left: 0;
+    /* width: 1px; */
+    line-height: 48px;
+    transition: all 1s ease;
+}
+.section__content .num-form__count > span.count .number > .count-list {
+    position: static;
+    width: 30px;
+    /* transform: translateY(-1000%); */
+}
+.section__content .num-form__count > span.count.count01 .number.sort01 > .count-list.motion.anim {
+    transition-delay: 0.1s;
+    transform: translateY(-300%);
+}
+.section__content .num-form__count > span.count.count01 .number.sort02 > .count-list.motion.anim {
+    transition-delay: 0.2s;
+    transform: translateY(-800%);
+}
+.section__content .num-form__count > span.count.count01 .number.sort03 > .count-list.motion.anim {
+    transition-delay: 0.3s;
+    transform: translateY(-000%);
+}
+.section__content .num-form__icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 32px auto;
+    border-radius: 16px;
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.section__content .num-form__icon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    max-width: 100%;
+}
+.section__content .num-form__desc {
+    color: #9FA9AB;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.section__content .num-form__block + .num-form__block {
+    margin-left: 128px;
+}
+.section__content .num-form__block {
+    position: relative;
+    min-width: 272px;
+}
+.section__content .num-form__block + .num-form__block::before {
+    content: '';
+    position: absolute;
+    left: -64px;
+    width: 1px;
+    height: 100%;
+    background-color: #d9d9d9;
+}
+.section__content .num-form__count > span.count.count02 {
+    width: 60px;
+}
+.section__content .num-form__count > span.count.count02 .number.sort01 > .count-list.motion.anim {
+    transition-delay: 0.1s;
+    transform: translateY(-700%);
+}
+.section__content .num-form__count > span.count.count02 .number.sort02 > .count-list.motion.anim {
+    transition-delay: 0.2s;
+    transform: translateY(-500%);
+}
+.section.space-03 {
+    padding: 240px 0 120px;
+}
+.section__title .tit + p {
+    margin-top: 16px;
+}
+.section__title p.desc {
+    color: #00C4BD;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.section__content .trans-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 970px;
+    margin: 80px auto 0;
+}
+.section__content .trans-form__block {
+    position: relative;
+    padding: 19px 0 19px;
+}
+.section__content .trans-form__block img {
+    display: block;
+    width: 140px;
+}
+.section__content .trans-form__block span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 108px;
+    height: 42px;
+    background: url(https://join.baeminconnect.com/assets/img/common/icon__trans-tag.png) no-repeat center / 100% auto;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.section__content .trans-form__block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 11px;
+    height: 100%;
+    background: url(https://join.baeminconnect.com/assets/img/common/icon__trans-line02.png) no-repeat center / 100% auto;
+}
+.section__content .trans-form__block1 {
+    position: relative;
+    padding: 19px 0 19px;
+}
+.section__content .trans-form__block1 img {
+    display: block;
+    width: 140px;
+}
+.section__content .trans-form__block1 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 108px;
+    height: 42px;
+    background: url(https://join.baeminconnect.com/assets/img/common/icon__trans-tag.png) no-repeat center / 100% auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-weight: 700;
+}
+.section__content .trans-form__block + .trans-form__block {
+    padding-left: 35px;
+    margin-left: 24px;
+}
+.section__content .trans-form__block1 + .trans-form__block {
+    padding-left: 35px;
+    margin-left: 24px;
+}
+.section.space-04 {
+    padding: 120px 0 240px;
+}
+.section__title span.desc {
+    display: block;
+    color: #00C4BD;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.section__title .tit + span {
+    margin-top: 16px;
+}
+.section__content .benefit-form {
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 0;
+}
+.section__content .benefit-form__block img {
+    display: block;
+    height: 138px;
+}
+.section__content .benefit-form__block span {
+    display: block;
+    margin: 40px auto 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.section__content .benefit-form__block + .benefit-form__block {
+    margin-left: 64px;
+}
+.section__content .benefit-form__btn {
+    position: relative;
+    display: inline-block;
+    margin: 90px 0 48px;
+    padding: 14px 40px;
+    border-radius: 30px;
+    background-color: #00C4BD;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    cursor: pointer;
+}
+.section__content .benefit-form__btn::after {
+    content: '';
+    position: absolute;
+    left: 25px;
+    bottom: -48px;
+    width: 223px;
+    height: 36px;
+    background: url(https://join.baeminconnect.com/assets/img/common/benefit__txt.png) no-repeat center / 100% auto;
+    pointer-events: none;
+}
+.section.space-bg {
+    padding: 140px 0;
+    background-color: #f5f5f5;
+}
+.section__content .guide-form {
+    position: relative;
+}
+.section__content .guide-form .swiper {
+    width: 100%;
+    height: 100%;
+    margin: 48px auto 0;
+    max-width: 1000px;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+.section__content .guide-form .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    background: transparent;
+    cursor: pointer;
+}
+.swiper-slide {
+    flex-shrink: 0;
+    /* width: 100%; */
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}
+.section__content .guide-form .swiper-slide-active .swiper-slide__img {
+    transform: scale(1);
+}
+.section__content .guide-form .swiper-slide__img {
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.16);
+    overflow: hidden;
+    transform: scale(0.83333);
+    transition: all 0.5s;
+}
+.section__content .guide-form .swiper-slide__img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.section__content .guide-form .swiper-slide__img::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.4;
+    transition: all 0.5s;
+}
+.section__content .guide-form .swiper-slide-active .swiper-slide__img::after {
+    opacity: 0;
+}
+.section__content .guide-form .swiper-slide__txt {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.section__content .guide-form .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    position: inherit;
+    margin: 16px 0 0;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+.swiper-pagination {
+    /* position: absolute; */
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+}
+.section__content .guide-form .swiper-pagination-bullet-active {
+    background: #00C4BD;
+}
+.section__content .guide-form .swiper-pagination-bullet {
+    background: #d9d9d9;
+    opacity: 1;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 4px;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+}
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    /* background: #000; */
+    /* opacity: .2; */
+}
+.section__content .guide-form__btn {
+    display: inline-block;
+    margin: 40px 0 0;
+    padding: 22px 120px;
+    border-radius: 38px;
+    background-color: #00C4BD;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    cursor: pointer;
+}
+.section__content .story-form {
+    margin: 80px 0 0;
+}
+.section__content .story-form ul {
+    display: flex;
+    justify-content: center;
+}
+.section__content .story-form__block {
+    width: 312px;
+    height: 360px;
+    padding: 32px 32px;
+    text-align: left;
+}
+.section__content .story-form__block.-num01 {
+    background: url(https://join.baeminconnect.com/assets/img/common/story__people01.png) no-repeat center / 100% auto;
+}
+.section__content .story-form__block p.txt {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.section__content .story-form__block + .story-form__block {
+    margin-left: 56px;
+}
+.section__content .story-form__block.-num02 {
+    background: url(https://join.baeminconnect.com/assets/img/common/story__people02.png) no-repeat center / 100% auto;
+}
+.section__content .story-form__block span.name {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.section__content .story-form__block.-num03 {
+    background: url(https://join.baeminconnect.com/assets/img/common/story__people03.png) no-repeat center / 100% auto;
+}
+.section__content .story-form__block.-num04 {
+    background: url(https://join.baeminconnect.com/assets/img/common/story__people04.png) no-repeat center / 100% auto;
+}
+.section.space-04.auto {
+    padding: 120px 0 calc(416px + 32px);
+}
+.section__content .search-form {
+    position: relative;
+    width: 648px;
+    margin: 135px auto 0;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.section__content .search-form__input {
+    width: 84%;
+    height: 22px;
+    padding: 20px 76px 20px 24px;
+    border: 2px solid #00C4BD;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section__content .search-form__desc {
+    display: block;
+    position: relative;
+    margin-top: 12px;
+    padding-left: 11px;
+    color: #9FA9AB;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.section__content .search-form__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 63px;
+    height: 64px;
+    background: url(https://join.baeminconnect.com/assets/img/common/icon__search.svg) no-repeat center / 28px;
+    white-space: nowrap;
+    text-indent: 109%;
+    overflow: hidden;
+    cursor: pointer;
+}
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    overflow-clip-margin: 0px !important;
+    overflow: clip !important;
+}
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+.section__content .search-form__bubble {
+    position: absolute;
+    top: -111px;
+    right: -71px;
+    width: 216px;
+    height: 105px;
+    padding: 22px 24px 0;
+    background: url(https://join.baeminconnect.com/assets/img/common/icon__bubble.png) no-repeat center / 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-weight: 700;
+}
+.outro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 560px;
+    background: url(https://join.baeminconnect.com/assets/img/common/outro__bg.jpg) no-repeat center / cover;
+}
+.outro__title {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.outro__tit {
+    margin-top: 32px;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.outro__qr {
+    position: relative;
+    width: 210px;
+    height: 202px;
+    margin: 40px 0 0 -26px;
+    background: url(https://join.baeminconnect.com/assets/img/common/outro__qr.png) no-repeat center / auto 100%;
+}
+.outro__qr .outro__qr-code {
+    position: absolute;
+    top: 14%;
+    left: 30%;
+    width: 112px;
+    height: 112px;
+}
+.outro__qr .outro__qr-code > canvas {
+    width: 100%;
+    height: 100%;
+}
+canvas {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    aspect-ratio: auto 265 / 265;
+}
+footer {
+    position: relative;
+}
+.container {
+    /* max-width: 1920px; */
+    min-width: 1440px;
+    margin: 0 auto;
+}
+footer .footer__inner {
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    height: 72px;
+}
+footer .footer__tit strong {
+    margin-right: 80px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+footer .footer__tit a.link01 {
+    font-weight: 700;
+}
+footer .footer__tit a + a {
+    margin-left: 25px;
+}
+footer .footer__tit a {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+footer .footer__tit a + a::before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: -13px;
+    width: 1px;
+    height: 17px;
+    background-color: #D9D9D9;
+}
+footer .footer__info {
+    display: flex;
+    margin-left: auto;
+}
+footer .footer__info li {
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+footer .footer__info li + li {
+    margin-left: 25px;
+}
+footer .footer__info li + li::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -13px;
+    width: 1px;
+    height: 17px;
+    background-color: #D9D9D9;
+}
+footer .footer__bottom {
+    position: absolute;
+    bottom: 0;
+    width: 1px;
+    height: 1px;
+    background-color: #fff;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>약관 동의</title>
+    </head>
+    <body>
+        <form action="" name="my-form">
+            <div>
+                <label>
+                    전체 동의
+                    <input type="checkbox" name="all" class="all" />
+                </label>
+            </div>
+            <div>
+                <label>
+                    필수 동의
+                    <input
+                        type="checkbox"
+                        id="agree"
+                        name="duty"
+                        class="allduty"
+                    />
+                </label>
+            </div>
+            <div>
+                <label>
+                    [필수] 이용 약관
+                    <input
+                        type="checkbox"
+                        id="agree"
+                        name="duty1"
+                        class="dutyterm"
+                    />
+                </label>
+            </div>
+            <div>
+                <label>
+                    [필수] 개인 정보 수집 약관
+                    <input
+                        type="checkbox"
+                        id="agree"
+                        name="duty2"
+                        class="dutyterm"
+                    />
+                </label>
+            </div>
+            <div>
+                <label>
+                    [선택] 실명 인증된 아이디로 가입
+                    <input
+                        type="checkbox"
+                        id="agree"
+                        name="term1"
+                        class="term"
+                    />
+                </label>
+            </div>
+            <div>
+                <label>
+                    [선택] 위치기반서비스 이용약관
+                    <input
+                        type="checkbox"
+                        id="agree"
+                        name="term2"
+                        class="term"
+                    />
+                </label>
+            </div>
+            <div>
+                <label>
+                    [선택] 개인정보 수집 및 이용
+                    <input
+                        type="checkbox"
+                        id="agree"
+                        name="term3"
+                        class="term"
+                    />
+                </label>
+            </div>
+        </form>
+    </body>
+    <script>
+        NodeList.prototype.filter = Array.prototype.filter;
+
+        const all = document.querySelector("input.all");
+        const allDuty = document.querySelector("input.allduty");
+        const dutyTerms = document.querySelectorAll("input.dutyterm");
+        const terms = document.querySelectorAll("input.term");
+        // const agrees = document.querySelectorAll("input.agree");
+        const agrees = document.getElementById("agree");
+
+        all.addEventListener("change", (e) => {
+            const isChecked = e.target.checked;
+            if (allDuty) {
+                allDuty.checked = e.target.checked;
+            }
+            dutyTerms.forEach((checkbox) => {
+                checkbox.checked = isChecked;
+            });
+            terms.forEach((checkbox) => {
+                checkbox.checked = isChecked;
+            });
+        });
+        allDuty.addEventListener("change", (e) => {
+            dutyTerms.forEach((dutyterm) => {
+                dutyterm.checked = e.target.checked;
+            });
+        });
+        dutyTerms.forEach((dutyterm) => {
+            dutyterm.addEventListener("change", (e) => {
+                allDuty.checked =
+                    dutyTerms.filter((dutyterm) => dutyterm.checked).length ===
+                    2;
+            });
+        });
+        terms.forEach((term) => {
+            term.addEventListener("change", (e) => {
+                all.checked = terms.filter((term) => term.checked).length === 3;
+            });
+        });
+        agrees.forEach((checkbox) => {
+            checkbox.addEventListener("change", (e) => {
+                all.checked =
+                    agrees.filter((checkbox) => checkbox.checked).length === 6;
+            });
+        });
+    </script>
+</html>

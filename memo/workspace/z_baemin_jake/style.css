@@ -1,0 +1,538 @@
+html {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    display: block;
+}
+body {
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    background-color: rgb(246, 246, 246);
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+}
+body {
+    position: fixed;
+}
+body {
+    display: block;
+}
+p, h1, h2, h3, h4, h5, h6, section, ul, ol, li, dl, dt, dd, div, button, figure {
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.jakeBody1 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(42, 193, 188);
+}
+.mainStlye {
+    height: 1012px;
+    max-height: -webkit-fill-available;
+    width: 100%;
+    transform: translateY(0px);
+    transition: transform 0.9s;
+}
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+.mainDivStyle {
+    height: 1012px;
+    width: 100%;
+    background-color: rgb(42, 193, 188);
+    overflow: hidden;
+}
+.mainDivStyle .jake_m_d_div {
+    height: 1012px;
+    width: 100vw;
+    background-color: rgb(42, 193, 188);
+    background-image: url(https://www.baemin.com/_next/static/media/main_04@2x.7849a906.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: absolute;
+    inset: 0px;
+    animation: 1s linear 0s 1 normal forwards running zoom-in;
+}
+.mainDivStyle .jake_div_ContentContainer_1 {
+    width: 1012px;
+    margin: 0px auto;
+    height: 100%;
+    padding: 165px 50px 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+.b_div_style {
+    position: relative;
+    z-index: 3;
+    width: 50%;
+}
+.css_Image_style1 {
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 100%;
+    height: auto;
+}
+.stylePW1 {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.jakeRFBS {
+    /* display: flex; */
+    flex-flow: wrap;
+    -webkit-box-align: center;
+    /* align-items: center; */
+    /* -webkit-box-pack: center; */
+    /* justify-content: center; */
+}
+.stylePW2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.stylePW2 {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.38;
+    margin-bottom: 14px;
+}
+.stylePW3 {
+    background-image: url(https://www.baemin.com/_next/static/media/img-appstore-default@2x.e5ca1ace.png);
+    background-repeat: no-repeat;
+    background-size: 140px;
+    background-position: center center;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+    margin-right: 12px;
+    padding: 15px 30px;
+    border-radius: 100px;
+}
+.stylePW4:last-child {
+    margin-right: 0px;
+}
+.stylePW4 {
+    background-image: url(https://www.baemin.com/_next/static/media/img-googleplay-default@2x.aacd26b8.png);
+    background-repeat: no-repeat;
+    background-size: 140px;
+    background-position: center center;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+    margin-right: 12px;
+    padding: 15px 30px;
+    border-radius: 100px;
+}
+.stylePW2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.stylePW2 {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.38;
+    margin-bottom: 14px;
+}
+.stylePW5 {
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: min(225px, 20vh);
+    height: auto;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.jakejung {
+    height: 1012px;
+    width: 100%;
+    background-color: rgb(42, 193, 188);
+    overflow: hidden;
+}
+.jakejung .jake_div_ContentContainer_1 {
+    width: 1012px;
+    margin: 0px auto;
+    height: 100%;
+    padding: 165px 50px 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+.iuAVVp {
+    position: relative;
+    z-index: 3;
+    width: 584px;
+    margin-bottom: 30px;
+}
+.css_Image_style1 {
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 100%;
+    height: auto;
+}
+.jakejung .jake_div_ContentContainer_1 .jake_section_itemtemplate_01 {
+    position: relative;
+    width: 500px;
+    z-index: 3;
+}
+.jakejung .jake_div_ContentContainer_1 .jake_section_itemtemplate_01 .SectionItemTemplate-styles__Description-sc-e15c3b34-2 {
+    margin-top: 3%;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.38;
+}
+.lgoMdv.active {
+    animation: 0.8s ease 0s 1 normal forwards running from-right;
+}
+.lgoMdv {
+    position: absolute;
+    z-index: 2;
+    bottom: 12%;
+    right: -15%;
+    opacity: 1;
+}
+.kKJXyW {
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    width: 48.6vw;
+    height: 48.6vw;
+    background-size: cover;
+    background-image: url(https://www.baemin.com/_next/static/media/img-baemin-labtop.9fc01bea.png);
+}
+.kRkdlV {
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    width: 48.6vw;
+    height: 48.6vw;
+    background-size: cover;
+    background-image: url(https://www.baemin.com/_next/static/media/img-baedal-labtop.7612868b.png);
+}
+.dhXBcQ {
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    width: 48.6vw;
+    height: 48.6vw;
+    background-size: cover;
+    background-image: url(https://www.baemin.com/_next/static/media/img-club-labtop.96802bea.png);
+}
+.fsvhlq {
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    width: 48.6vw;
+    height: 48.6vw;
+    background-size: cover;
+    background-image: url(https://www.baemin.com/_next/static/media/img-bmart-labtop.353b9732.png);
+}
+.cKtZns {
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    width: 48.6vw;
+    height: 48.6vw;
+    background-size: cover;
+    background-image: url(https://www.baemin.com/_next/static/media/img-store-labtop.2e2a46ec.png);
+}
+.gLtjEp {
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    width: 48.6vw;
+    height: 48.6vw;
+    background-size: cover;
+    background-image: url(https://www.baemin.com/_next/static/media/img-hyper-market-labtop.8a8ba24c.png);
+}
+.knqObL {
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    width: 48.6vw;
+    height: 48.6vw;
+    background-size: cover;
+    background-image: url(https://www.baemin.com/_next/static/media/img-gift-labtop.187c0f04.png);
+}
+.dfa-dmm {
+    margin-top: 29px;
+    width: 233px;
+    background-color: rgb(42, 193, 188);
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+.lhOLnY {
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    width: 48.6vw;
+    height: 48.6vw;
+    background-size: cover;
+    background-image: url(https://www.baemin.com/_next/static/media/img-pay-labtop.b3eeb463.png);
+}
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+.jfPW1 {
+    position: relative;
+    height: 1012px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    padding: 0px max(-512px + 50vw, 50px);
+    overflow: hidden;
+}
+.jfPW2 {
+    width: 270px;
+    float: right;
+    margin-right: 253px;
+    margin-top: 10vh;
+    margin-left: 0px;
+}
+ul {
+    /* list-style: none; */
+    padding-inline-start: 0px;
+    /* padding: 0px; */
+    /* margin: 0px; */
+}
+.jfPW3 {
+    margin: 6vh 0px 15px;
+    margin-top: 12.7vh;
+    margin-bottom: 30px;
+    list-style: none;
+    line-height: 2.5;
+    max-width: 150px;
+}
+.jfPW3 li {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 36px;
+    max-width: calc(-25px + 50vw);
+}
+input, textarea, button, select, a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    appearance: none;
+    outline: none;
+}
+.jfPW4 {
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: auto;
+    height: 100%;
+}
+.jfPW5 {
+    margin: 0px 0px 0px -12px;
+    list-style: none;
+}
+.jfPW5 li {
+    display: inline-table;
+    width: 36px;
+    margin-right: 29px;
+}
+.jfPW5 li a {
+    display: table-cell;
+}
+.jfPW5 li:last-child {
+    margin-right: 0px;
+}
+.jfPW6 {
+    position: absolute;
+    bottom: calc(env(safe-area-inset-bottom) + 12.3vh);    left: 0px;
+    padding: 0px max(-512px + 50vw, 50px);
+    font-family: AppleSDGothicNeo;
+    word-break: break-all;
+}
+.jfPW7 {
+    padding: 0px 0px 16px;
+    margin: 0px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+}
+.jfPW8 {
+    font-size: inherit;
+    background: url(https://www.baemin.com/_next/static/media/link-line_01@2x.19ae80d9.png) center bottom / 100% 3px no-repeat;
+}
+
+.jfPW7:last-child {
+    padding: 0px;
+}
+.jkPW9 {
+    margin-right: 6px;
+}
+.jakedvPW01 {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 1012px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 60px 173px 0px 50px;
+    top: 0px;
+    box-sizing: border-box;
+    opacity: 1;
+    animation: 1s ease 0.3s 1 normal forwards running kVkdYZ;
+}
+.jakedvPW02 {
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 28%;
+    height: auto;
+    max-width: 142px;
+}
+.jakedvPW03 {
+    display: flex;
+    list-style: none;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 48px;
+}
+.jakedvPW03 li {
+    width: 36px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.jakedvPW03 li:not(:last-child) {
+    margin-right: 18px;
+}
+.jakedvPW03 li img {
+    cursor: pointer;
+}
+.jakedvPW04 {
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 36px;
+    height: auto;
+}
+.jakeNvPW01 {
+    position: fixed;
+    top: 47%;
+    right: 11%;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out 0.3s;
+}
+.jakeNvPW01 button {
+    cursor: pointer;
+}
+.jakeNvPw02 {
+    display: block;
+    border-radius: 50%;
+    border-color: white;
+    width: 24px;
+    height: 24px;
+    background: url(https://www.baemin.com/_next/static/media/dotScroll02@2x.32b98ae6.png) 0% 0% / 100% 100% no-repeat;
+}
+.jakeNvPW01 li + li {
+    margin-top: 10px;
+}
+.jake_a_PW01 {
+    position: fixed;
+    display: flex;
+    width: 173px;
+    height: 226px;
+    right: 0px;
+    top: 0px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out 0.3s;
+}
+.jake_i_PW01 {
+    transition: opacity 0.5s ease-in-out 0.3s;
+}
+em, i, strong, p {
+    font-style: normal;
+    font-weight: normal;
+}
+.jake_i_PW02 {
+    position: fixed;
+    bottom: 3%;
+    left: calc(50% - 34px);
+    width: 68px;
+    height: 68px;
+    cursor: pointer;
+    animation: 0.5s ease 0s 3 normal none running jump;
+}
+.jake_i_PW02 > img {
+    width: 100%;
+}
+.jakeNvPw02.active {
+    background-color: #000;
+}
+.OqHME li {
+    width: 140px;
+    margin-left: 8px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.bOuxiy {
+    position: relative;
+    width: 100%;
+}
+.epIDmJ {
+    display: flex;
+    width: 140px;
+    height: 48px;
+    margin-right: 26px;
+    background-image: url(https://www.baemin.com/_next/static/media/btn-download-white@3x.5de1ad9a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+li {
+    list-style-type: none;
+}
+#map {
+    width: 1012px;
+    height: 454px;
+}

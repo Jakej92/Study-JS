@@ -1,0 +1,179 @@
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    line-height: 1;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+    font-family: Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+body ::selection {
+    background-color: #e6e6e6;
+    background-color: fade(#000, 10);
+    color: inherit;
+    cursor: text;
+}
+.header {
+    background-color: #fff;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+}
+@media only screen and (min-width: 768px) {
+    .c-new-grid.container[data-v-6629b27d] {
+        max-width: 1140px;
+    }
+}
+.c-new-grid[data-v-6629b27d] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    width: 100%;
+}
+.c-new-row[data-v-b28fc93a] {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+@media only screen and (min-width: 768px) {
+    .new-col-lg-12 {
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.c-new-col {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+.header-nav[data-v-74b705de] {
+    align-items: center;
+    display: flex !important;
+    height: 68px;
+}
+.c-header {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex !important
+;
+}
+.ml-24, .mx-24 {
+    margin-left: 24px !important;
+}
+.c-header-menu[data-v-51214518] {
+    color: #595f63;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    list-style: none;
+}
+.flex.align-center {
+    -webkit-box-align: center;
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+.ml-auto {
+    margin-left: auto !important;
+}
+.c-dropdown {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+}
+.c-dropdown--item-group {
+    position: relative;
+}
+/* =-------------- */
+.p-relative {
+    position: relative !important;
+}
+.search_input_container.full .search_input, .search_input_container.full label, .search_input_container.full {
+    width: 100%;
+}
+.search[data-v-74b705de] {
+    align-items: center;
+    border-radius: 4px;
+    height: 40px;
+    max-width: 300px;
+}
+.search_input_container[data-v-67fcdc20] {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    display: flex !important;
+    flex-direction: row;
+    position: relative;
+}
+/* .search_input_container[data-v-67fcdc20]:after, .search_input_container[data-v-67fcdc20]:before {
+    content: " ";
+    display: table;
+} */
+.search_input_container .search_input{
+    zoom: 1;
+    -webkit-appearance: none;
+    background-color: #f3f4f5;
+    border: 0;
+    border-radius: 4px;
+    color: #3c4144;
+    display: -moz-inline-stack;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px 36px 10px 58px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    vertical-align: top;
+    width: 300px;
+}
+.search_input_container .search_input_icon_wrapper {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+

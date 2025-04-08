@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>약관 동의</title>
+    </head>
+    <body>
+        <form action="" name="my-form">
+            <div>
+                <label>
+                    전체 동의
+                    <input type="checkbox" name="all" class="all" />
+                </label>
+            </div>
+            <div>
+                <label>
+                    서비스 이용약관 동의
+                    <input type="checkbox" name="term1" class="term" />
+                </label>
+            </div>
+            <div>
+                <label>
+                    광고 수신 동의
+                    <input type="checkbox" name="term2" class="term" />
+                </label>
+            </div>
+            <div>
+                <label>
+                    개인 정보 이용약관 동의
+                    <input type="checkbox" name="term3" class="term" />
+                </label>
+            </div>
+        </form>
+    </body>
+    <script>
+        // 전체 동의 1개와 선택 동의 3개가 있다.
+        // 전체 동의를 체크하면, 선택 동의가 모두 체크되고,
+        // 전체 동의를 해제하면, 선택 동의가 모두 해제된다.
+        // 전체 동의 상태에서 선택 동의 하나라도 해제되면,
+        // 전체 동의도 체크가 해제된다.
+        // 전체 동의를 체크하지 않았더라도, 선택 동의를 모두 체크하면,
+        // 전체 동의도 체크된다.
+        // 전체 동의 체크박스와 선택 동의 체크박스들을 가져옵니다.
+        const selectAllCheckbox = document.querySelector(".all");
+        const termCheckboxes = document.querySelectorAll(".term");
+
+        // 전체 동의 체크박스의 상태가 변경될 때의 이벤트 리스너
+        selectAllCheckbox.addEventListener("change", (e) => {
+            const isChecked = e.target.checked;
+            termCheckboxes.forEach((checkbox) => {
+                checkbox.checked = isChecked;
+            });
+        });
+
+        // 각 선택 동의 체크박스의 상태가 변경될 때의 이벤트 리스너
+        // termCheckboxes.forEach((checkbox) => {
+        //     checkbox.addEventListener("change", () => {
+        //         const allChecked = Array.from(termCheckboxes).every(
+        //             (checkbox) => checkbox.checked
+        //         );
+        //         const someUnchecked = Array.from(termCheckboxes).some(
+        //             (checkbox) => !checkbox.checked
+        //         );
+        //         selectAllCheckbox.checked = allChecked;
+        //         selectAllCheckbox.indeterminate = !allChecked && !someUnchecked;
+        //     });
+        // });
+    </script>
+</html>

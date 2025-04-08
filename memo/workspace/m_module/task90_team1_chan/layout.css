@@ -1,0 +1,40 @@
+#comment {
+    margin: 0 auto;
+}
+
+button {
+    margin:0, auto;
+}
+
+.id {
+    width : 50px;
+    text-align: center;
+}
+
+td, th {
+    border : 1px solid red;
+}
+
+table {
+    white-space: nowrap; /* 자식 요소가 줄바뀌지 않도록 설정 */
+}
+
+.name, .body {
+    display : inline-block;
+    width: 400px;
+    overflow: hidden; /* 내용이 초과될 경우 숨기기 */
+    white-space: nowrap; /* 텍스트 줄바꿈 방지 */
+    text-overflow: ellipsis; /* 넘친 텍스트에 ... 표시 */
+}
+
+.postText{
+    display : block;
+    width: 500px;
+    overflow: hidden; /* 내용이 초과될 경우 숨기기 */
+    white-space: nowrap; /* 텍스트 줄바꿈 방지 */
+    text-overflow: ellipsis; /* 넘친 텍스트에 ... 표시 */
+}
+
+#userAndPost{
+    margin-left: 700px;
+}
